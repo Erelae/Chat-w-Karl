@@ -1,0 +1,20 @@
+.user {
+  padding: 20px;
+  cursor: pointer;
+  color: white;
+  transition: color 0.5s, background-color 0.5s;
+  opacity: 0;
+  transform: translateX(-100px);
+
+  &__active {
+    color: black;
+    background-color: white;
+  }
+
+  .notification {
+    width: 15px;
+    height: 15px;
+    background-color: red;
+    display: inline-block;
+  }
+}

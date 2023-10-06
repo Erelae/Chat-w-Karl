@@ -1,0 +1,9 @@
+.message {
+  transform: translateX(-100px);
+  opacity: 0;
+  padding: 1em;
+  &__self {
+    text-align: right;
+    transform: translateX(-100px);
+  }
+}

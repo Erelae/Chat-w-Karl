@@ -1,0 +1,21 @@
+.userlist {
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 8px;
+  margin-top: 12px;
+  margin-bottom: 12px;
+}
+
+.user {
+  color: white;
+  cursor: pointer;
+  padding: 20px;
+  &__active {
+    color: black;
+    background-color: white;
+  }
+}
